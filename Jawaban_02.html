@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transpose Matriks</title>
+
+</head>
+<body>
+    <script>
+    var A = [[1,2,3],
+            [1,2,3],
+            [1,2,3]];
+    var B = [
+            [],
+            [],
+            []
+            ];
+    for(let i=0; i<3;i++)
+    for(let j=0;j<3;j++){
+        B[i][j]=A[j][i]
+    }
+    for (let i=0;i<3;i++) 
+    document.write(B[i]+"<br>")
+    </script>
+    
+</body>
+</html>
